@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <a href="/index.html">Volver al HOME</a>
+    <div>
+        <!-- Creamos un DIV para contener el formulario -->
+
+        <div id="form">
+            <span>Ingrese un rango de números:</span>
+            <!-- Creamos dos input para recuperar los datos ingresados por el usuario -->
+            <input id="input-uno" type="text">
+            <input id="input-dos" type="text">
+            <h2 id="error"></h2>
+            <!--<input type="text" id="txtCosto" name="txtCosto" value="" onKeyPress="return soloNumeros(event)" />-->
+            <span></span>
+            <!-- Creamos botones de la calculadora -->
+            <button id="btn1">Sumar</button>
+            <button id="btn2">Restar</button>
+            <button id="btn3">Multiplicar</button>
+            <button id="btn4">Dividir</button>
+        </div>
+        <!-- Creamos in DIV que permita mostrar el resultado de el resultado -->
+        <div id="resultado"></div>
+        <!-- Enlazamos el código JS -->
+        <script src="code2.js"></script>
+    </div>
+
+</body>
+
+</html>
